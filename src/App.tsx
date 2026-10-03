@@ -730,9 +730,11 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6 border-b border-slate-900 pb-8">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-amber-500 rounded flex items-center justify-center font-black text-slate-950 text-base">
-                B
-              </div>
+              <img 
+                src="/src/assets/images/advanced_logo_icon_1791029339624.jpg" 
+                alt="BY ADVANCED Group Logo" 
+                className="w-8 h-8 rounded-full object-cover border border-amber-500/50 shadow"
+              />
               <span className="font-extrabold text-white text-sm">BY ADVANCED GROUP</span>
             </div>
             

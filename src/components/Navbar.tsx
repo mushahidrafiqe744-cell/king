@@ -30,9 +30,11 @@ export default function Navbar({ onApplyClick, onAdminToggle, isAdminActive }: N
           {/* Zone 1: Brand Wordmark */}
           <div className="flex items-center gap-3">
             <a href="#home" className="flex items-center gap-2 group">
-              <div className="w-10 h-10 bg-gradient-to-br from-amber-400 to-amber-600 rounded-lg flex items-center justify-center shadow-lg shadow-amber-500/20 font-bold text-slate-950 text-xl">
-                B
-              </div>
+              <img 
+                src="/src/assets/images/advanced_logo_icon_1791029339624.jpg" 
+                alt="BY ADVANCED Group Logo" 
+                className="w-11 h-11 rounded-full object-cover border-2 border-amber-500/50 shadow-lg shadow-amber-500/10"
+              />
               <div className="flex flex-col">
                 <span className="font-bold text-lg sm:text-xl tracking-tight leading-none text-white group-hover:text-amber-400 transition-colors">
                   BY ADVANCED
